@@ -1,0 +1,116 @@
+a {
+    text-decoration: none !important;
+    color: darkslategrey;
+}
+
+a:hover {
+    color: #F1131E;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+
+*::selection {
+    color: white;
+    background: #F1131E;
+}
+
+body {
+    background: url("../images/mask-a.svg") no-repeat bottom;
+    background-size: cover;
+    position: static;
+}
+ul {
+    list-style: none;
+}
+
+.sidebar {
+    padding: 8px;
+    width: 240px;
+    height: 100vh;
+    float: left;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 1px 0px 5px 0px rgba(246, 246, 246, 0.78);
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0px;
+}
+
+.sidebar .logo img {
+    width: 48px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li a {
+    font-size: 16px;
+}
+
+.the-bears-design {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px 25px 25px;
+    position: relative;
+    background-color: hsla(357, 89%, 51%, 0.87);
+    position: absolute;
+    bottom: 5px;
+    width: 137px;
+}
+.the-bears-design:hover {
+    cursor: pointer;
+}
+
+.main {
+    margin-left: 240px;
+    overflow: scroll;
+    height: 100vh;
+}
+
+.card {
+    overflow: hidden;
+}
+.article-cover {
+    text-align: center;
+    width: 64px;
+    height: 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.article-cover img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.tags {
+    background: rgba(255,193,7,.5);
+    position: absolute;
+    top: 0;
+    font-size: .875rem;
+    right: 0;
+    padding: 3px 10px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.main-search input {
+    height: 55px;
+}
+.blog-item:hover {
+    background-color: #fff4d3;
+}
+.hot {
+    background-color: #fff4d3;
+}
